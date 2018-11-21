@@ -5,7 +5,7 @@ export default class CoordinateButton extends Component {
  
   render() {
     return (
-        <button className> Button </button>
+        <button onClick={this.props.onReceiveCoordinates}> Button </button>
     )
   }
 
